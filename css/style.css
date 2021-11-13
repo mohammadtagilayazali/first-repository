@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+
+}
+.menue
+{
+display: flex;
+}
+.menue__item{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.menue__link{
+    text-decoration: none;
+    color: red;
+}
+.menue__link:focus{
+    color: red;
+    border-bottom: 2px solid purple;
+    transition: all .2s ease;
+}
+.menue__link:focus::after{
+ 
+    content: "(this page)";
+}
+.active{
+    
+}
